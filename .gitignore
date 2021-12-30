@@ -17,6 +17,7 @@
 !sw/
 !tb/
 !python/
+!lab*/
 
 # The following file types are treated as exceptions
 

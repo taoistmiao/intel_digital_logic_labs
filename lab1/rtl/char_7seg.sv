@@ -1,8 +1,8 @@
 `default_nettype none
 
 module char_7seg(
-	input logic [1:0] C,
-	output logic [6:0] D
+    input logic [1:0] C,
+    output logic [6:0] D
 );
 
 assign D[0] = C[1] | ~C[0];

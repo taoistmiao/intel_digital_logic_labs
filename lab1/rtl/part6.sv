@@ -8,7 +8,7 @@ module part6 (
 
 logic [1:0] M0, M1, M2, M3, M4, M5;
 
-// SW[7:6] = 'd'
+// 2'b00 = 'd'; switch not enough, have to hard-code
 // SW[5:4] = 'E'
 // SW[3:2] = '1'
 // SW[1:0] = ' '

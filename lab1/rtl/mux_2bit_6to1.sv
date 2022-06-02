@@ -6,7 +6,7 @@ module mux_2bit_6to1(
     output logic [1:0] M
 );
 
-assign M =	(S == 3'b000) ? U : (S == 3'b001) ? V : (S == 3'b010) ? W : 
+assign M = (S == 3'b000) ? U : (S == 3'b001) ? V : (S == 3'b010) ? W : 
                 (S == 3'b011) ? X : (S == 3'b100) ? Y : Z;
 
 endmodule

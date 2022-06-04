@@ -19,6 +19,7 @@
 !python/
 !lab*/
 !tut*/
+!DE1-Soc/
 
 # The following file types are treated as exceptions
 

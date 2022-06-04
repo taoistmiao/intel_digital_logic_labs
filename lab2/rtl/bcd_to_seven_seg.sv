@@ -7,6 +7,7 @@ module bcd_to_seven_seg (
 
 always_comb begin
     case(bcd_val)
+        4'h0: seven_seg_val = 7'b1000000;
         4'h1: seven_seg_val = 7'b1111001;
         4'h2: seven_seg_val = 7'b0100100;
         4'h3: seven_seg_val = 7'b0110000;

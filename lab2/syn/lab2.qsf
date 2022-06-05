@@ -39,7 +39,7 @@
 
 set_global_assignment -name FAMILY "Cyclone V"
 set_global_assignment -name DEVICE 5CSEMA5F31C6
-set_global_assignment -name TOP_LEVEL_ENTITY part2
+set_global_assignment -name TOP_LEVEL_ENTITY part4
 set_global_assignment -name ORIGINAL_QUARTUS_VERSION 21.1.0
 set_global_assignment -name PROJECT_CREATION_TIME_DATE "23:04:25  JUNE 02, 2022"
 set_global_assignment -name LAST_QUARTUS_VERSION "21.1.0 Lite Edition"
@@ -307,6 +307,9 @@ set_location_assignment PIN_E12 -to VGA_R[6]
 set_location_assignment PIN_F13 -to VGA_R[7]
 set_location_assignment PIN_C10 -to VGA_SYNC_N
 set_location_assignment PIN_D11 -to VGA_VS
+set_global_assignment -name SYSTEMVERILOG_FILE ../rtl/part4.sv
+set_global_assignment -name SYSTEMVERILOG_FILE ../rtl/bin_to_bcd_5_bit.sv
+set_global_assignment -name SYSTEMVERILOG_FILE ../rtl/bcd_adder.sv
 set_global_assignment -name SYSTEMVERILOG_FILE ../rtl/hex_to_bcd.sv
 set_global_assignment -name SYSTEMVERILOG_FILE ../rtl/part3.sv
 set_global_assignment -name SYSTEMVERILOG_FILE ../rtl/full_adder_n.sv

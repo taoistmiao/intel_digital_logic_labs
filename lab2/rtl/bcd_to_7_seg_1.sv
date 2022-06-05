@@ -1,6 +1,8 @@
 `default_nettype none
 
-module bcd_to_seven_seg (
+// BCD to 7 segment display decoder
+// blank for numbers greater than 9
+module bcd_to_7_seg_1 (
     input logic [3:0] bcd_val,
     output logic [6:0] seven_seg_val
 );

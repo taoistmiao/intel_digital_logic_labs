@@ -1,4 +1,4 @@
 # intel_digital_logic_labs
-Labs from [Intel FPGA Academic](https://www.intel.com/content/www/us/en/developer/topic-technology/fpga-academic/materials-digital-logic.html)
+Labs from [Intel FPGAcademy](https://fpgacademy.org/courses.html)
 
-Implemented in SystemVerilog
+Implemented in SystemVerilog on [DE1-SoC](https://fpgacademy.org/boards.html)

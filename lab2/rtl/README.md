@@ -1,0 +1,1 @@
+`part*` modules provide interface of sub-modules and on-board I/O.
